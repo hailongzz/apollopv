@@ -1,0 +1,18 @@
+.opts{
+  position: relative;
+  height: 34px;
+  line-height: 34px;
+  font-size:18px;
+  color:rgba(16,16,21,1);
+  font-weight: bold;
+  span.num{
+    color: #8A8B99;
+    font-weight: normal;
+    margin-left: 18px;
+  }
+  .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

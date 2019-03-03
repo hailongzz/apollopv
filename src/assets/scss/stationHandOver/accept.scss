@@ -1,0 +1,169 @@
+.jj-accept{
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    bottom: 0;
+    z-index: 11;
+    .accept-inner{
+        position: absolute;
+        top:45px;
+        left: 50%;
+        margin-left: -321px;
+        width: 642px;
+    }
+    .title{
+        text-align: center;
+        div{
+            color: #292830;
+            height:34px;
+            line-height: 34px;
+            font-size:24px;
+            font-family:'PingFang-SC-Bold';
+            font-weight:bold;
+        }
+        p{
+            margin: 10px 0 0 0;
+            height:20px;
+            line-height:20px;
+            font-size:14px;
+            font-family:'PingFangSC-Regular';
+            color: #8A8B99;
+            
+        }
+    }
+    .content{
+        margin-top: 31px;
+        dl{
+            margin: 0px;
+            height: 56px;
+            overflow: hidden;
+            dd{
+                margin-left: 0px;
+                width: 500px;
+                height: 56px;
+                line-height: 56px;
+                background: #FAFAFC;
+                float: left;
+                padding: 0 30px 0 20px;
+                border-right: 1px dashed #EBEBF2;
+                .name{
+                    float: left;
+                    color: #8A8B99;
+                    font-size:14px;
+                }
+                .val{
+                    span{
+                        padding: 0 5px;
+                        font-size: 24px;
+                    }
+                    float: right;
+                    font-size: 14px;
+                    color: #3E3E47;
+                    font-family: 'PingFang-SC-Bold';
+                    font-weight: bold;
+                }
+            }
+            dt{
+                float: right;
+                width: 140px;
+                height: 56px;
+                background: #FFFFFF;
+                text-align: center;
+                i.btn{
+                    border: 1px solid #328FE6;
+                    color: #328FE6;
+                    padding: 0;
+                    width: 90px;
+                    text-align: center;
+                    margin-top: 11px;
+                    &:hover{
+                        border: 1px solid #5BA5EB;
+                        color: #5BA5EB;
+                    }
+                }
+                
+            }
+        }
+        .parameter{
+            border: 1px solid #F1F1F4;
+            dl{
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 0px;
+                    left: 20px;
+                    right: 20px;
+                    display: block;
+                    border-bottom: 1px dashed #EBEBF2;
+
+                }
+                &:nth-child(1)::before{
+                    display: none;
+                }
+                img{
+                    margin-top: 19px;
+                    width: 18px;
+                    height: 18px;   
+                }
+            }
+        }
+        .upload{
+            border: 1px solid #E3E4EA;
+            dl{
+                position: relative;
+                dd{
+                    border-right: 0;
+                    background: #F5F5FA;
+                    .val{
+                        float: left;
+                    }
+                    .upload-file-item{
+                        display: flex;
+                        justify-content:center;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        .error-msg{
+                            font-size: 12px;
+                            color: #8A8B99;
+                        }
+                        a{
+                            font-size:12px;
+                            font-family: 'PingFangSC-Regular';
+                            color: #328FE6;
+                            text-decoration:none;
+                        }
+                        .file-name{
+                            font-size:14px;
+                            color: #3E3E47;
+                            font-weight: bold;
+                            max-width: 480px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                        .info{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                dt{
+                    background: #F5F5FA;
+                }
+            }
+        }
+    }
+    .opts{
+        display: flex;
+        margin-top: 30px;
+        justify-content:center;
+        i{
+            margin: 0 10px;
+            text-align: center;
+            width: 90px;
+        }
+    }
+}

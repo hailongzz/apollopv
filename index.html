@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>envisionom</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./static/img/favicon.ico">
+
+  <% if (process.env.NODE_ENV === 'production') { %>
+    <!-- 生产环境 -->
+    <!-- <script>document.write('<script src="/static/config/index-prod.js?t=' + new Date().getTime() + '"><\/script\>');</script> -->
+    <script src="/static/config/index-prod.js"></script>
+  <% }else { %>
+    <!-- 开发环境 -->
+    <link rel="shortcut icon" type="image/x-icon" href="./static/img/favicon.ico">
+    <script src="/static/config/index.js"></script>
+    <script src="/static/plugins/mock-1.0.0-beta3/mock-min.js"></script>
+  <% } %>
+</head>
+<style>
+  /* 去掉地图左下角的百度LOGO */
+  .el-form-item__label{
+    padding-right: 27px;
+  }
+  .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before{
+    padding-left: 5px;
+    padding-top: 2px;
+    float: right;
+  }
+  .anchorBL {
+    display:none
+  }
+</style>
+<body class="envision-theme">
+  <div id="app"></div>
+</body>
+ <script src="https://api.map.baidu.com/api?v=2.0&ak=OGovf0AkZu5S9e83Pk9VyFr9ql4BGB7F&callback=initialize"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/echarts-amap/dist/echarts-amap.min.js"></script> -->
+</html>

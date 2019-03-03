@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Apollo_OS_Web_iconfont';
+  src:  url('Apollo_OS_Web_iconfont.eot?lsu704');
+  src:  url('Apollo_OS_Web_iconfont.eot?lsu704#iefix') format('embedded-opentype'),
+    url('Apollo_OS_Web_iconfont.ttf?lsu704') format('truetype'),
+    url('Apollo_OS_Web_iconfont.woff?lsu704') format('woff'),
+    url('Apollo_OS_Web_iconfont.svg?lsu704#Apollo_OS_Web_iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang-Medium';
+  src:  url('PingFang-Medium/PingFang-Medium.eot?lsu704');
+  src:  url('PingFang-Medium/PingFang-Medium.eot?lsu704#iefix') format('embedded-opentype'),
+    url('PingFang-Medium/PingFang-Medium.ttf?lsu704') format('truetype'),
+    url('PingFang-Medium/PingFang-Medium.woff?lsu704') format('woff'),
+    url('PingFang-Medium/PingFang-Medium.svg?lsu704#PingFang-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon_"], [class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Apollo_OS_Web_iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_add001:before {
+  content: "\e900";
+}
+.icon_add002:before {
+  content: "\e901";
+}
+.icon_alert:before {
+  content: "\e902";
+}
+.icon_back:before {
+  content: "\e903";
+}
+.icon_delete:before {
+  content: "\e904";
+}
+.icon_export:before {
+  content: "\e905";
+}
+.icon_logo001:before {
+  content: "\e906";
+}
+.icon_logo002:before {
+  content: "\e907";
+}
+.icon_navigation_001:before {
+  content: "\e909";
+}
+.icon_navigation_002:before {
+  content: "\e90a";
+}
+.icon_navigation_003:before {
+  content: "\e90b";
+}
+.icon_navigation_004:before {
+  content: "\e90c";
+}
+.icon_navigation_005:before {
+  content: "\e90d";
+}
+.icon_navigation_006:before {
+  content: "\e90e";
+}
+.icon_navigation_007:before {
+  content: "\e90f";
+}
+.icon_navigation_008:before {
+  content: "\e910";
+}
+.icon_navigation_009:before {
+  content: "\e911";
+}
+.icon_navigation_recovery:before {
+  content: "\e912";
+}
+.icon_navigation_spread:before {
+  content: "\e913";
+}
+.icon_login_code:before {
+  content: "\e908";
+}
+.icon_login_password:before {
+  content: "\e914";
+}
+.icon_login_user:before {
+  content: "\e915";
+}
+.icon_icon_tick .path1:before {
+  content: "\e916";
+  color: rgb(50, 143, 230);
+}
+.icon_icon_tick .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon_icon_tick .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(254, 254, 255);
+}
